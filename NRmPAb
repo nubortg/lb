@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Neucha');
+
+p {
+  font-family: Candara;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4em;
+  
+}
+
+h1 {
+  
+  font-family: Candara;
+  text-transform: uppercase;
+  color: #13621B;
+ }
+
+h2 {
+  font-family: Candara;
+ /* text-transform: capitalize ; */
+  color: #13621B;
+  
+}
+
+h3 {
+  font-family: Candara;
+  text-transform: lowercase;
+  font-size: 1.7em;
+  color: #9E9E9E;
+}
+
+h4 {
+  font-family: Candara;
+ /* text-transform: lowercase; */
+  color: #D25222;
+  font-size: 1.8em;
+  text-shadow: #D25222 0.1px 0.1px;
+}
+
+.accent_text {
+  font-size: 1.5em;
+  color: #424242;
+}
+
+.accent_text_green {
+  color: #13621B;
+}
+  
+}
+[pos="27"] {
+  /*width: 90% !important;*/
+  padding-bottom: 50px !important;
+  padding-top: 50px !important;
+}
+
+[pos='27'] > .mha {
+  width: 100% !important;
+  height: 900px !important;
+}
+
+[pos="31"] {
+  /*width: 90% !important;*/
+  padding-bottom: 50px !important;
+  padding-top: 50px !important;
+}
+
+[pos='31'] > .mha {
+  width: 100% !important;
+  height: 900px !important;
+}
+
+[pos="26"] {
+  /*width: 90% !important;*/
+  padding-bottom: 50px !important;
+  padding-top: 50px !important;
+}
+
+[pos='26'] > .mha {
+  width: 80% !important;
+  height: 800px !important;
+}
+
+[pos='39'] > .mha {
+  width: 87% !important;
+  
+}
+
+[pos='35'] > .mha {
+  width: 87% !important;
+  
+}
+
+[pos='36'] > .mha {
+  width: 87% !important;
+  
+}
+
+[pos='37'] > .mha {
+  width: 87% !important;
+  
+}
+
+[pos='46'] > .mha {
+  width: 87% !important;
+  
+}
+
+[pos='41'] > .mha {
+  width: 87% !important;
+  
+  
+}
+
+[pos='41'] > .mha p {
+  line-height: 1.2em; 
+  
+}
+
+
+
+[pos='35'] > .background_2 {
+  background-image: url(http://s.lpmtr.ru/files/6/4/9/649b7ba5b94bb99a816f2492d55d523d.jpg);
+  background-position:  10% 50% !important;
+  background-repeat: no-repeat;
+  background-color: transparent;
+ /* background-size: 70%; */
+  background-position: 10px;
+
+}
+
+
+
+[pos='42']  li  {
+ 
+padding-bottom: 10px;
+
+}
+
+[pos='46']  [pos='5']   {
+ 
+margin-top: 0px;
+
+}
+
+[pos='46'] [pos='5'] .container_cell  {
+ 
+    border-left: solid 1px;
+    padding-left: 15px;
+    height: 200px;
+
+}
+
+
+
+[pos='46'] [pos='5'] .first_cell   {
+    
+    border-left: none;
+    padding-left: 15px;
+    
+
+}
+
+@media screen and (max-width: 1280px) {
+    
+[pos='46'] [pos='5'] .container_cell  {
+ 
+    border-left: solid 1px;
+    padding-left: 15px;
+    height: 300px;
+
+}
+
+
+
+[pos='46'] [pos='5'] .first_cell   {
+    
+    border-left: none;
+    padding-left: 15px;
+    
+
+}
+  
+     [pos='44'] > .section-image {
+    background-position: 110% 0% !important;
+    
+}
+  
+  [pos='6'] > .section-image  {
+ 
+  background-size: 95%;  
+  background-position:  90% 50% !important;
+
+}
+
+[pos='7'] > .background_2 {
+  background-image: url(http://s.lpmtr.ru/files/2/2/e/22e5de0a72efa1c9c9eda8281eb0e86c.png);
+  background-position:  10% 50% !important;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: 95%;  
+  background-position: 10px;
+
+}
+  
+ /* [pos='46'] [pos='6'] {
+    margin-top: 100px;
+  } */
+  
+  
+  [pos='46'] [pos='5'] .container_cell  {
+ 
+    border-left: solid 1px;
+    padding-left: 15px;
+    height: 400px;
+
+}
+  
+  .btn-new {
+    font-family: Candara !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size: 35px !important;
+    color: #FFFFFF;
+}
+  
+  
+ 
+   }
+
+
+
+
+
+
+
+
+
+[pos='46'] .tpl_cell > [pos='6'] {
+  border: dotted 2px #000000 !important;
+  padding: 20px !important;
+}
+
+@media screen and (min-width: 1280px) {
+[pos='44'] > .section-image {
+  background-position: 95% 0% !important;
+}
+  
+  [pos='6'] > .section-image  {
+ 
+ /* background-size: 95%;  */
+  background-position:  90% 50% !important;
+
+}
+
+[pos='7'] > .background_2 {
+  background-image: url(http://s.lpmtr.ru/files/2/2/e/22e5de0a72efa1c9c9eda8281eb0e86c.png);
+  background-position:  10% 50% !important;
+  background-repeat: no-repeat;
+  background-color: transparent;
+ /* background-size: 95%;  */
+  background-position: 10px;
+
+}
+  
+  .btn-new {
+    font-family: Candara !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size: 25px !important;
+    color: #FFFFFF;
+}
+
+}
+
+
+[pos='40'] > .section-image {
+  background-position: 95% 0% !important;
+}
+
+[pos='18'] > .section-image {
+  background-position: 95% 0% !important;
+}
+/*p {
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+
+[pos='3'] [pos='2'] {
+      margin: -25px 0px 0px 50px !important;
+}
+
+#button_up_wrap.button_up.yellow {
+    background: #D25222 !important;
+    
+}
+
+@media screen and (max-width: 700px) {
+    
+
+}
+
+@media only screen 
+   and (max-width : 768px) 
+   and (max-height : 1280px) {
+   /* Styles here */
+     
+     [pos='3'] > .section-image  {
+ 
+       background-size: 160%;
+  
+
+}
+}

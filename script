@@ -1,0 +1,99 @@
+<script>
+   function summ() {
+  var ds_price = 500;
+  var lb_price = 400;
+  var c_ds = 0;
+  var c_lb = 0;
+  var summa = 0;
+  
+  c_ds = document.getElementById("dsid").value;
+  c_lb = document.getElementById("lbid").value;
+  
+  summa = ( ds_price * c_ds ) +  (lb_price * c_lb);
+  
+  document.getElementById("summaid").value = summa;
+  document.getElementById("descid").value = "Ваш заказ: Лесная биржа " + c_lb + " шт. Дима и совёнок " + c_ds + " шт. " ;
+      
+
+ }
+</script>
+
+<script>
+  function showError(container, errorMessage) {
+   container.className = 'ui_error';
+   var msgElem = document.createElement('span');
+   msgElem.className = "error-message";
+   msgElem.innerHTML = errorMessage;
+   container.appendChild(msgElem);
+ }
+
+ function resetError(container) {
+   container.className = '';
+   if (container.lastChild.className == "error-message") {
+     container.removeChild(container.lastChild);
+   }
+ }
+
+ function validate(form) {
+   var elems = form.elements;
+   var price = 0;
+   var chk = true;
+   var bookName;
+   var r = /^\w+@\w+\.\w{2,4}$/i;
+
+   switch (form.name) {
+
+     case "bayDS":
+       price = 65000;
+       bookName = "Книга Дима и Совенок";
+       break;
+     case "bayLB":
+       price = 55000;
+       bookName = "Книга Лесная Биржа";
+       break;
+     case "copmLBDS":
+       price = 113000;
+       bookName = "Комплект книг: Дима и Совенок, Лесная Биржа";
+       break;
+
+   }
+
+   resetError(elems.payName.parentNode);
+   if (!elems.payName.value) {
+     showError(elems.payName.parentNode, ' Это поле нужно заполнить.');
+     chk = false;
+   } else {
+     chk = true && chk;
+   }
+
+   /* resetError(elems.payEmail.parentNode);
+    if (!elems.payEmail.value) {
+      showError(elems.payEmail.parentNode, ' Это поле нужно заполнить.');
+      chk = false;
+    } else {
+      chk = true;
+    }
+     */
+   resetError(elems.payEmail.parentNode);
+   if ((!r.test(elems.payEmail.value)) || (!elems.payEmail.value)) {
+     showError(elems.payEmail.parentNode, 'Указан некорректный адрес электронной почты');
+     chk = false;
+   } else {
+     chk = true && chk;
+
+   }
+
+   resetError(elems.payAdress.parentNode);
+   if (!elems.payAdress.value) {
+     showError(elems.payAdress.parentNode, ' Это поле нужно заполнить.');
+     chk = false;
+   } else {
+     chk = true && chk;
+   }
+
+   if (chk) {
+     makePayment(price, null, bookName, form.payName.value, form.payEmail.value, form.payPhone.value, form.payAdress.value);
+   }
+
+ }
+</script>

@@ -1,169 +1,82 @@
-#sections_list > [pos="3"] > .mha {
+/* 20102020 */
+
+#sections_list > [pos="4"] > .mha {
   width: 100% !important;
 }
 
-@media (max-width: 3000px) and (min-width: 1280px) {
-  #sections_list > [pos="3"] > .section-image {
-    background-image: url(http://s.lpmtr.ru/files/1/9/c/19c5995af9306bb6e9f05bbd060b105c.jpg) !important;
-  }
-  #sections_list > [pos="3"] {
-    padding-bottom: 920px !important;
-  }
-  #sections_list > [pos="3"] > .mha > .tpl_cell > [pos="1"] {
-        /* margin-left: 45% !important; */
-    /* margin-top: 32% !important; */
-           width: 100%;
-    position: absolute;
-    top: 652px;
-    left: 800px;
-  }
-  
-  #sections_list > [pos="3"] > .mha > .tpl_cell > [pos="2"] {
-      /* margin-left: 45% !important; */
-    margin-top: 7% !important;
-    width: 50%;
-    /* float: right; */
-    /* margin-right: 11%; */
-    position: absolute;
-    top: 737px;
-    left: 750px;
-  }
-  
-  .o_fin {
-        /* float: right; */
-    /* margin-right: 55% !important; */
-    position: relative;
-    top: 10px;
-    left: 180px;
-  }
+#sections_list > [pos="4"] > .section-image {
+  background-image: url(http://s.lpmtr.ru/files/1/9/c/19c5995af9306bb6e9f05bbd060b105c.jpg) !important;
+}
+#sections_list > [pos="4"] {
+  padding-bottom: 46.56% !important;
+}
+#sections_list > [pos="4"] > .mha > .tpl_cell > [pos="1"] {
+  /* margin-left: 45% !important; */
+  /* margin-top: 32% !important; */
+  width: 100%;
+  position: absolute;
+  /* top: 661px; */
+  /* left: 60%; */
+   padding-top: 33.0%;  
+   padding-left: 53%;  
 }
 
-@media (max-width: 1280px) and (min-width: 960px) {
-  #sections_list > [pos="3"] > .section-image {
-    background-image: url(http://s.lpmtr.ru/files/a/7/5/a75a80da908455f48a0ba3bf428e2321.jpg) !important;
-  }
-  #sections_list > [pos="3"] {
-    padding-bottom: 864px !important;
-  }
-  
-  #sections_list > [pos="3"] > .mha > .tpl_cell > [pos="1"]{
-     /* margin-left: 45% !important; */
-    /* margin-top: 32% !important; */
-        width: 100%;
-    position: absolute;
-        top: 610px;
-    left: 520px;
-  }
-  
- #sections_list >  [pos="3"] > .mha > .tpl_cell > [pos="2"] {
-       /* margin-left: 45% !important; */
-    margin-top: 7% !important;
-    width: 50%;
-    /* float: right; */
-    /* margin-right: 11%; */
-    position: absolute;
-    top: 725px;
-    left: 500px;
-  }
-  
-  .o_fin {
-          /* float: right; */
-    /* margin-right: 55% !important; */
-    position: relative;
-    top: 10px;
-    left: 180px;
-  }
+#sections_list > [pos="4"] > .mha > .tpl_cell > [pos="2"] {
+  /* margin-left: 45% !important; */
+  margin-top: 7% !important;
+  width: 50%;
+  /* float: right; */
+  /* margin-right: 11%; */
+  position: absolute;
+  top: 737px;
+  left: 750px;
 }
 
-@media (max-width: 960px) and (min-width: 384px) and (orientation: landscape) {
-  #sections_list > [pos="3"] > .section-image {
-    background-image: url(http://s.lpmtr.ru/files/2/b/5/2b5688cad3602145a5377855cf5dc99a.jpg) !important;
-  }
-  #sections_list > [pos="3"] {
-    padding-bottom: 443px !important;
-  }
-  
-  #sections_list >  [pos="3"] > .mha > .tpl_cell > [pos="1"]{
-     /* margin-left: 45% !important; */
-    /* margin-top: 32% !important; */
-        width: 100%;
-    position: absolute;
-        top: 294px;
-    left: 390px;
-  }
-  
-   #sections_list > [pos="3"] > .mha > .tpl_cell > [pos="2"] {
+.o_fin {
+  /* float: right; */
+  /* margin-right: 55% !important; */
+  position: relative;
+  top: 10px;
+  left: 180px;
+}
+
+
+.blk_container .cell.container_cell[data-id=b-c5061e1e32a44c7ea292e83490cd549a] {
+    width: 21%; 
+}
+
+.blk_container .cell.container_cell[data-id=b-14a62921e800441fa3f75efd1cf6020c] {
+    width: 25%;
+}
+
+.blk_container .cell.container_cell[data-id=b-c3494b18b44c47d2b86ab2ebcc5c642c] {
+    width: 0;
+}
+
+.blk_container[data-id=b-9596221d6cc347beb4d244f99dff3241] {
+      margin-top: 0;
     /* margin-left: 45% !important; */
-    margin-top: 7% !important;
-    width: 50%;
-    /* float: right; */
-    /* margin-right: 11%; */
-    position: absolute;
-       top: 350px;
-    left: 337px;
-  }
-  
-   #sections_list >  [pos="3"] > .mha > .tpl_cell > [pos="2"] [blk_class="blk_button"] {
-    
-        transform: scale(.7);
-    
-  }
-  
-  .o_fin {
-          /* float: right; */
-    /* margin-right: 55% !important; */
-    position: relative;
-    top: 10px;
-    left: 180px;
-  }
-}
-
-@media (max-width: 960px) and (min-width: 384px) and (orientation: portrait) {
-  #sections_list > [pos="3"] > .section-image {
-    background-image: url(http://s.lpmtr.ru/files/a/e/c/aec1921c3f966d5391a67627f6f99ad3.jpg) !important;
-  }
-  #sections_list > [pos="3"] {
-    padding-bottom: 637px !important;
-  }
-  
-  #sections_list > [pos="3"] > .mha > .tpl_cell > [pos="1"]{
-     /* margin-left: 45% !important; */
     /* margin-top: 32% !important; */
-        width: 100%;
+    width: 100%;
     position: absolute;
-        top: 445px;
-    left: 390px;
-  }
- 
-  
- #sections_list >  [pos="3"] > .mha > .tpl_cell > [pos="2"] {
-      /* margin-left: 45% !important; */
-    margin-top: 7% !important;
-    width: 50%;
-    /* float: right; */
-    /* margin-right: 11%; */
-    position: absolute;
-       top: 529px;
-    left: 337px;
-  }
-  
-  #sections_list >  [pos="3"] > .mha > .tpl_cell > [pos="2"] [blk_class="blk_button"] {
-    
-        transform: scale(.7);
-    
-  }
-  
-  .o_fin {
-          /* float: right; */
-    /* margin-right: 55% !important; */
-    position: relative;
-    top: 10px;
-    left: 180px;
-  }
+    /* top: 0; */
+    left: 0;
+    padding-top: 44%;
+    padding-left: 50%;
+  font-size: 2vw;
 }
 
-@media (max-width: 500px) {
-  #sections_list > [pos="3"] > .section-image {
-    background-image: url(http://s.lpmtr.ru/files/a/e/c/aec1921c3f966d5391a67627f6f99ad3.jpg) !important;
-  }
+[data-id=b-3bb577f0b65b407581cfa93c2e2871fa]  .btn-new {
+  font-size: 2vw !important;
+  
+}
+
+[data-id=b-14a62921e800441fa3f75efd1cf6020c]  .btn-new {
+  font-size: 2vw !important;
+  
+}
+
+[data-id=b-c3494b18b44c47d2b86ab2ebcc5c642c]  .btn-new {
+  font-size: 2vw !important;
+  
 }

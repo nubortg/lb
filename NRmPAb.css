@@ -193,7 +193,8 @@ h4 {
 }
 
 [pos="42"] > .background_2 {
-  background-image: url(//s.lpmcdn.com/lpfile/a/4/4/a44507acae82fc2de408c24ed18e2773.jpg);
+  /* background-image: url(//s.lpmcdn.com/lpfile/a/4/4/a44507acae82fc2de408c24ed18e2773.jpg); */
+  background-image: url(https://m-files.cdnvideo.ru/lpfile/2/a/a/2aa8f41e582b36014e39aadeb223854d/-/crop/0x0x1735x2156/-/resize/479/f.jpg);  
   background-position: 10% 50% !important;
   background-repeat: no-repeat;
   background-color: transparent;

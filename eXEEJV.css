@@ -207,7 +207,8 @@ h3 {
 .lpage_av5 {}
 
 .lpage_av6 {
-  background-image: url(http://s.lpmcdn.com/lpfile/1/0/6/10629f34ac77bdd49e686d14d5dc00a3.jpg);
+ /* background-image: url(http://s.lpmcdn.com/lpfile/1/0/6/10629f34ac77bdd49e686d14d5dc00a3.jpg); */
+  background-image: url(https://m-files.cdnvideo.ru/lpfile/1/0/6/10629f34ac77bdd49e686d14d5dc00a3/-/crop/0x0x1213x862/-/resize/900/f.jpg);
   background-position: 100% 50%;
   background-repeat: no-repeat;
   background-color: transparent;

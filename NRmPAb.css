@@ -275,7 +275,7 @@ h4 {
   [pos="14"] > .background_2 {
    /* background-image: url(http://m-files.cdnvideo.ru/lpfile/f/0/4/f04bec256b6364d83bc9beb14201d03c/-/scale/x1/-/crop/0x0x507x800/-/resize/507/-/quality/95/file.png); */
    /* background-image: url(https://m-files.cdnvideo.ru/lpfile/0/2/2/0224e34ced29cb81869ceec723b26f0d/-/scale/x1/-/crop/0x0x507x800/-/resize/507/-/quality/100/file.png);  */
-    background-image: url(https://m-files.cdnvideo.ru/lpfile/f/e/3/fe3e65003be1885ff606cd886c911d11/-/crop/0x0x507x800/-/resize/507/f.png);
+    background-image: url(https://m-files.cdnvideo.ru/lpfile/5/1/b/51b7a35f11756b6153ac1e7062b22e8a/-/crop/0x0x507x800/-/resize/607/f.png);
     background-position: 10% 50% !important;
     background-repeat: no-repeat;
     background-color: transparent;
@@ -318,7 +318,9 @@ h4 {
    
    /* background-image: url(http://m-files.cdnvideo.ru/lpfile/f/0/4/f04bec256b6364d83bc9beb14201d03c/-/scale/x1/-/crop/0x0x507x800/-/resize/507/-/quality/95/file.png); */
    /* background-image: url(https://m-files.cdnvideo.ru/lpfile/0/2/2/0224e34ced29cb81869ceec723b26f0d/-/scale/x1/-/crop/0x0x507x800/-/resize/507/-/quality/100/file.png); */
-    background-image: url(https://m-files.cdnvideo.ru/lpfile/f/e/3/fe3e65003be1885ff606cd886c911d11/-/crop/0x0x507x800/-/resize/507/f.png);
+   /* background-image: url(https://m-files.cdnvideo.ru/lpfile/f/e/3/fe3e65003be1885ff606cd886c911d11/-/crop/0x0x507x800/-/resize/507/f.png); */
+    
+    background-image: url(https://m-files.cdnvideo.ru/lpfile/5/1/b/51b7a35f11756b6153ac1e7062b22e8a/-/crop/0x0x507x800/-/resize/607/f.png);
     background-position: 10% 50% !important;
     background-repeat: no-repeat;
     background-color: transparent;
